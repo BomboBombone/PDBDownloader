@@ -36,7 +36,7 @@ namespace PDBDownloader
             downloader.downloadFile(fileInfo, args[1]);
 
             Console.WriteLine("Successfully downloaded pdb file.\n Press any key to close...");
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
